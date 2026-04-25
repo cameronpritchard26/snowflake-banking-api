@@ -2,7 +2,7 @@ I need a new Claude skill available in this project. it will be called `get-weat
 
 The latlng.work API is a proxy service that converts zip codes to latitude and longitude coordinates.
 https://dash.latlng.work/api-keys
-API Key: latlng_m33wan7higixzf49xitliu9jybywadah
+API Key: ${LATLNG_API_KEY}
 
 It should use the open-meteo.com API to get the current weather for the zip code.
 https://open-meteo.com/
