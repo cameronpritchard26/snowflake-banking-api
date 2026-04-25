@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where python *)",
+      "Bash(where python3 *)",
+      "Bash(py --version)",
+      "PowerShell(& \"C:\\\\Users\\\\ralph\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python.exe\" --version 2>&1)",
+      "WebFetch(domain:dash.latlng.work)",
+      "WebFetch(domain:latlng.work)",
+      "WebFetch(domain:open-meteo.com)",
+      "Bash(gh auth *)",
+      "PowerShell(gh auth *)",
+      "PowerShell(git *)",
+      "PowerShell(cmdkey *)"
+    ]
+  }
+}

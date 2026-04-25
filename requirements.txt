@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+pyjwt
+snowflake-connector-python
+python-dotenv

@@ -1,0 +1,20 @@
+I need a new Claude skill available in this project. it will be called `get-weather` and will take in a US zip code.
+
+The latlng.work API is a proxy service that converts zip codes to latitude and longitude coordinates.
+https://dash.latlng.work/api-keys
+API Key: latlng_m33wan7higixzf49xitliu9jybywadah
+
+It should use the open-meteo.com API to get the current weather for the zip code.
+https://open-meteo.com/
+API Key: not needed
+
+the response should be in JSON format with the following fields:
+- temperature
+- humidity
+- wind_speed
+- weather_condition
+
+the skill should be placed in the skills/get-weather directory.
+it will be called using `/get-weather <zip_code>`.
+if the zip code is not provider then prompt the user for 1.
+if the zip code is invalid, prompt the user for a valid zip code.
